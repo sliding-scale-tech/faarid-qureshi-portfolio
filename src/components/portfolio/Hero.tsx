@@ -43,7 +43,7 @@ export function Hero() {
             transition={{ duration: 0.5 }}
             className="font-mono text-xs tracking-[0.3em] uppercase text-lime/80 mb-6"
           >
-            // Full Stack Developer
+            // Full Stack MVP Developer
           </motion.p>
           <h1 className="font-display font-extrabold leading-[0.95] text-5xl sm:text-6xl lg:text-7xl">
             <motion.span initial={{ opacity: 0, y: 20, filter: "blur(8px)" }} animate={{ opacity: 1, y: 0, filter: "blur(0)" }} transition={{ duration: 0.6, delay: 0.05 }} className="block text-white">
