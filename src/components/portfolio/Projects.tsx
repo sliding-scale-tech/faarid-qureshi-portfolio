@@ -21,7 +21,9 @@ export function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {PROJECTS.map((p, i) => (
             <motion.a
-              href="#"
+              href="https://contra.com/faarid_qureshi_oc408zpd/work?r=ruhan_ahmed_c9ymo98o"
+              target="_blank"
+              rel="noopener noreferrer"
               key={p.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
