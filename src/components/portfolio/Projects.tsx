@@ -31,19 +31,15 @@ export function Projects() {
             >
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-lime scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
               <div className="relative h-[220px] overflow-hidden bg-[#0d0d0d]">
-                <div
-                  className="absolute inset-0 transition-transform duration-500 group-hover:scale-105"
-                  style={{
-                    background: `linear-gradient(135deg, rgba(170,255,69,0.08), rgba(170,255,69,0.02) 50%, transparent), radial-gradient(circle at 30% 30%, rgba(170,255,69,0.2), transparent 60%)`,
-                  }}
+                <img
+                  src={p.image}
+                  alt={p.title}
+                  loading="lazy"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-dots opacity-40 transition-opacity duration-500 group-hover:opacity-100" />
-                <div className="absolute inset-0 bg-black/50 transition-opacity duration-500 group-hover:opacity-0" />
-                <div className="absolute bottom-4 left-4 font-mono text-xs text-lime/80">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500 group-hover:opacity-60" />
+                <div className="absolute bottom-3 left-4 font-mono text-xs text-lime/90">
                   0{i + 1} / 0{PROJECTS.length}
-                </div>
-                <div className="absolute top-4 right-4 font-display font-extrabold text-xl text-white/40 group-hover:text-lime transition-colors">
-                  {p.title.split(" ").map(w => w[0]).join("")}
                 </div>
               </div>
               <div className="p-5">
