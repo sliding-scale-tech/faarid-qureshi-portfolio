@@ -28,37 +28,37 @@ export const PROJECTS = [
   {
     title: "Misk Events Platform",
     desc: "Enterprise events & programs app for the Misk Global Forum — featured sessions, schedules, and interactive venue maps.",
-    tags: ["React Native", "TypeScript", "Maps"],
+    tags: ["Google Analytics", "Jira", "React"],
     image: miskAsset.url,
   },
   {
     title: "PowerPresent AI",
     desc: "AI-powered presentation tool that turns ideas into scroll-stopping slide decks in seconds.",
-    tags: ["Next.js", "OpenAI", "AI Agents"],
+    tags: ["Airtable", "Figma", "JavaScript"],
     image: powerpresentAsset.url,
   },
   {
     title: "C2BM Workforce Management",
     desc: "Specialized workforce platform for data centers and industrial infrastructure operations.",
-    tags: ["Next.js", "Node.js", "PostgreSQL"],
+    tags: ["Next.js", "Stripe", "Vercel"],
     image: c2bmAsset.url,
   },
   {
     title: "Legacy Building",
     desc: "Memory-keeping platform that helps people preserve their stories and gift them to loved ones.",
-    tags: ["React", "TypeScript", "Tailwind"],
+    tags: ["Next.js", "Stripe", "Vercel"],
     image: legacyAsset.url,
   },
   {
     title: "NextClean",
     desc: "Two-sided marketplace connecting customers with vetted independent cleaners — secure payments and dispute support.",
-    tags: ["Next.js", "Stripe", "Prisma"],
+    tags: ["Next.js", "Stripe", "Vercel"],
     image: nextcleanAsset.url,
   },
   {
     title: "Maqsad",
     desc: "Large-scale EdTech mobile application with over 1M+ downloads and 250k+ MAUs.",
-    tags: ["React Native", "Node.js", "Scale"],
+    tags: ["Java", "Node.js", "React"],
     image: maqsadAsset.url,
   },
 ];
