@@ -62,7 +62,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="mt-8 text-mist max-w-xl text-base sm:text-lg leading-relaxed"
           >
-            I turn ideas into production-ready products, fast. Next.js · React · TypeScript · Node.js · AI Integration.
+            Turning ideas into production-ready products within weeks
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 10 }}
