@@ -67,7 +67,9 @@ export function Projects() {
 
         <div className="flex justify-center mt-14">
           <a
-            href="#"
+            href="https://contra.com/faarid_qureshi_oc408zpd/work?r=ruhan_ahmed_c9ymo98o"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-lime text-lime px-7 py-3 font-semibold transition-all hover:bg-lime hover:text-black"
           >
             View All Projects
