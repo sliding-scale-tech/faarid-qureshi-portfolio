@@ -17,14 +17,50 @@ export const VALUES = [
   { icon: "🌐", title: "End-to-End", text: "Design, develop, and deploy." },
 ];
 
-/* Replace with real project data */
+import miskAsset from "@/assets/misk.png.asset.json";
+import powerpresentAsset from "@/assets/powerpresent.png.asset.json";
+import c2bmAsset from "@/assets/c2bm.png.asset.json";
+import legacyAsset from "@/assets/legacy.png.asset.json";
+import nextcleanAsset from "@/assets/nextclean.png.asset.json";
+import maqsadAsset from "@/assets/maqsad.png.asset.json";
+
 export const PROJECTS = [
-  { title: "AI SaaS Dashboard", desc: "Analytics dashboard with embedded LLM insights.", tags: ["Next.js", "OpenAI", "Prisma"] },
-  { title: "E-commerce MVP", desc: "Headless store launched in 3 weeks.", tags: ["React", "Stripe", "Node"] },
-  { title: "Marketplace Platform", desc: "Two-sided marketplace with realtime chat.", tags: ["Next.js", "PostgreSQL", "WS"] },
-  { title: "Automation Tool", desc: "Workflow builder powered by AI agents.", tags: ["LangChain", "Node", "Redis"] },
-  { title: "Client Portal", desc: "Custom CRM portal with role-based access.", tags: ["TypeScript", "Prisma", "Auth"] },
-  { title: "Landing Page System", desc: "Component-driven landing builder.", tags: ["React", "Tailwind", "Vercel"] },
+  {
+    title: "Misk Events Platform",
+    desc: "Enterprise events & programs app for the Misk Global Forum — featured sessions, schedules, and interactive venue maps.",
+    tags: ["React Native", "TypeScript", "Maps"],
+    image: miskAsset.url,
+  },
+  {
+    title: "PowerPresent AI",
+    desc: "AI-powered presentation tool that turns ideas into scroll-stopping slide decks in seconds.",
+    tags: ["Next.js", "OpenAI", "AI Agents"],
+    image: powerpresentAsset.url,
+  },
+  {
+    title: "C2BM Workforce Management",
+    desc: "Specialized workforce platform for data centers and industrial infrastructure operations.",
+    tags: ["Next.js", "Node.js", "PostgreSQL"],
+    image: c2bmAsset.url,
+  },
+  {
+    title: "Legacy Building",
+    desc: "Memory-keeping platform that helps people preserve their stories and gift them to loved ones.",
+    tags: ["React", "TypeScript", "Tailwind"],
+    image: legacyAsset.url,
+  },
+  {
+    title: "NextClean",
+    desc: "Two-sided marketplace connecting customers with vetted independent cleaners — secure payments and dispute support.",
+    tags: ["Next.js", "Stripe", "Prisma"],
+    image: nextcleanAsset.url,
+  },
+  {
+    title: "Maqsad",
+    desc: "Large-scale EdTech mobile application with over 1M+ downloads and 250k+ MAUs.",
+    tags: ["React Native", "Node.js", "Scale"],
+    image: maqsadAsset.url,
+  },
 ];
 
 /* Replace with real testimonials */
