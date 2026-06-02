@@ -41,8 +41,8 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
-        <a href="#top" className="font-display font-extrabold text-lime text-2xl tracking-[0.15em]">
-          FQ
+        <a href="#top" className="font-display font-extrabold text-lime text-xl tracking-[0.15em]">
+          Faarid Qureshi
         </a>
         <ul className="hidden md:flex items-center gap-1">
           {links.map((l) => {

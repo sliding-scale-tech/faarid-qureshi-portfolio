@@ -1,12 +1,6 @@
 import { motion } from "framer-motion";
-import { Mail, Globe } from "lucide-react";
+import { Mail } from "lucide-react";
 import { BackgroundGrid } from "./BackgroundGrid";
-
-const GithubIcon = (p: { size?: number }) => (
-  <svg width={p.size ?? 18} height={p.size ?? 18} viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.1c-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.27-1.7-1.27-1.7-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.34.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5Z" />
-  </svg>
-);
 
 const LinkedinIcon = (p: { size?: number }) => (
   <svg width={p.size ?? 18} height={p.size ?? 18} viewBox="0 0 24 24" fill="currentColor" aria-hidden>
@@ -35,7 +29,9 @@ export function Contact() {
         </p>
         <div className="mt-10 flex flex-col items-center gap-6">
           <a
-            href="mailto:faaridqureshi@gmail.com"
+            href="https://contra.com/faarid_qureshi_oc408zpd/work?r=ruhan_ahmed_c9ymo98o"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-lime text-black font-bold text-lg px-12 py-4 transition-all hover:scale-[1.03] hover:shadow-[0_0_50px_rgba(170,255,69,0.7)]"
           >
             Send Me a Message
@@ -49,13 +45,13 @@ export function Contact() {
           </a>
           <div className="flex gap-5 mt-2">
             {[
-              { icon: GithubIcon, href: "#", label: "GitHub" },
-              { icon: LinkedinIcon, href: "#", label: "LinkedIn" },
-              { icon: Globe, href: "#", label: "Contra" },
+              { icon: LinkedinIcon, href: "https://www.linkedin.com/in/faarid-qureshi/", label: "LinkedIn" },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={label}
                 className="w-11 h-11 rounded-full border border-[#2a2a2a] flex items-center justify-center text-white/70 hover:border-lime hover:text-lime transition-all"
               >
