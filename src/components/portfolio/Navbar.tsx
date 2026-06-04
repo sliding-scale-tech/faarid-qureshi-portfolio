@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#work", label: "Work" },
-  { href: "#skills", label: "Skills" },
-  { href: "#contact", label: "Contact" },
+  { href: "#about", label: "Overview" },
+  { href: "#work", label: "Projects" },
+  { href: "#skills", label: "Stack" },
+  { href: "#contact", label: "Let's Connect", cta: true },
 ];
 
 export function Navbar() {
@@ -47,6 +47,18 @@ export function Navbar() {
         <ul className="hidden md:flex items-center gap-1">
           {links.map((l) => {
             const isActive = active === l.href;
+            if (l.cta) {
+              return (
+                <li key={l.href}>
+                  <a
+                    href={l.href}
+                    className="ml-2 inline-flex items-center rounded-full bg-lime px-4 py-2 text-sm font-semibold text-black transition-all hover:scale-[1.03] hover:shadow-[0_0_24px_rgba(170,255,69,0.55)]"
+                  >
+                    {l.label}
+                  </a>
+                </li>
+              );
+            }
             return (
               <li key={l.href}>
                 <a
@@ -82,7 +94,11 @@ export function Navbar() {
                 <a
                   href={l.href}
                   onClick={() => setOpen(false)}
-                  className="block py-2 text-white/80 hover:text-lime"
+                className={
+                  l.cta
+                    ? "mt-2 inline-block rounded-full bg-lime px-4 py-2 text-sm font-semibold text-black"
+                    : "block py-2 text-white/80 hover:text-lime"
+                }
                 >
                   {l.label}
                 </a>
