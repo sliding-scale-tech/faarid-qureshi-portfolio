@@ -1,3 +1,10 @@
+import c2bmImage from "@/assets/C2BM.webp";
+import legacyImage from "@/assets/LegacyBuilding.png";
+import maqsadImage from "@/assets/Maqsad.png";
+import miskImage from "@/assets/Misk Events.png";
+import nextcleanImage from "@/assets/NextClean.png";
+import powerpresentImage from "@/assets/PowerPresent.png";
+
 export const SKILLS = [
   "Next.js", "React", "TypeScript", "JavaScript", "Node.js", "Express",
   "Prisma", "PostgreSQL", "MongoDB", "TailwindCSS", "Figma", "REST APIs",
@@ -17,54 +24,47 @@ export const VALUES = [
   { icon: "🌐", title: "End-to-End", text: "Design, develop, and deploy." },
 ];
 
-import miskAsset from "@/assets/misk.png.asset.json";
-import powerpresentAsset from "@/assets/powerpresent.png.asset.json";
-import c2bmAsset from "@/assets/c2bm.png.asset.json";
-import legacyAsset from "@/assets/legacy.png.asset.json";
-import nextcleanAsset from "@/assets/nextclean.png.asset.json";
-import maqsadAsset from "@/assets/maqsad.png.asset.json";
-
 export const PROJECTS = [
   {
     title: "Misk Events Platform",
     desc: "Enterprise events & programs app for the Misk Global Forum — featured sessions, schedules, and interactive venue maps.",
     tags: ["Google Analytics", "Jira", "React"],
-    image: miskAsset.url,
+    image: miskImage,
     link: "https://contra.com/p/Wr37M3U7-misk-events-platform-enterprise-events-and-programs-app",
   },
   {
     title: "PowerPresent AI",
     desc: "AI-powered presentation tool that turns ideas into scroll-stopping slide decks in seconds.",
     tags: ["Airtable", "Figma", "JavaScript"],
-    image: powerpresentAsset.url,
+    image: powerpresentImage,
     link: "https://contra.com/p/3OXZAE3r-powerpresentai-ai-powered-presentation-tool",
   },
   {
     title: "C2BM Workforce Management",
     desc: "Specialized workforce platform for data centers and industrial infrastructure operations.",
     tags: ["Next.js", "Stripe", "Vercel"],
-    image: c2bmAsset.url,
+    image: c2bmImage,
     link: "https://contra.com/p/ReFMM3mW-c2-bm-workforce-management-system",
   },
   {
     title: "Legacy Building",
     desc: "Memory-keeping platform that helps people preserve their stories and gift them to loved ones.",
     tags: ["Next.js", "Stripe", "Vercel"],
-    image: legacyAsset.url,
+    image: legacyImage,
     link: "https://contra.com/p/vlFEWkqE-legacy-building",
   },
   {
     title: "NextClean",
     desc: "Two-sided marketplace connecting customers with vetted independent cleaners — secure payments and dispute support.",
     tags: ["Next.js", "Stripe", "Vercel"],
-    image: nextcleanAsset.url,
+    image: nextcleanImage,
     link: "https://contra.com/p/OWYrOc6U-next-clean",
   },
   {
     title: "Maqsad",
     desc: "Large-scale EdTech mobile application with over 1M+ downloads and 250k+ MAUs.",
     tags: ["Java", "Node.js", "React"],
-    image: maqsadAsset.url,
+    image: maqsadImage,
     link: "https://contra.com/p/cXokFXsq-maqsad-large-scale-ed-tech-mobile-application",
   },
 ];
